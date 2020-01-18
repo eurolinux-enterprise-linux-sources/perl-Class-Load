@@ -1,6 +1,6 @@
 Name:		perl-Class-Load
 Version:	0.20
-Release:	2.1%{?dist}
+Release:	3%{?dist}
 Summary:	A working (require "Class::Name") and more
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -99,6 +99,9 @@ make test
 %{_mandir}/man3/Class::Load.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20-3
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.20-2.1
 - Rebuild for perl 5.16
 
